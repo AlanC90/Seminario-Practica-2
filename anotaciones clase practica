@@ -1,0 +1,26 @@
+https://python-unlp.github.io/2023/guias/07/entornos_virtuales/
+
+
+#Entorno virtual.
+python3.11 -m venv venv
+
+source venv/bin/activate
+
+python --version
+
+python unlpImage.py
+
+pip install -r Requeriments.txt 
+
+pip install pandas
+
+python unlpImage.py
+
+source venv/bin/deactivate
+
+
+
+
+
+
+
